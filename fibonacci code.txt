@@ -1,0 +1,23 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    //fibonaci ex till 6 = 0 1 1 2 3 5 (0+1=1, 1+2=3 sum of to number )
+	    Scanner sc = new Scanner(System.in);
+	    int n = sc.nextInt();
+	    int a = 0;
+	    int b=1;
+	    for(int i=0; i<n; i++){
+		System.out.print(a);
+	    //6
+	    // 0 1 1 2 3  5 
+	    // a b c (0+1 = 1)
+	    //   a b c ( index  is move then a and b will be move )
+	    //     a b c
+		int c = a+b; 
+		              
+		 a = b;
+		 b = c;
+	}
+}
+}
